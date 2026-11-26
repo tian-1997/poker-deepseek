@@ -1,5 +1,10 @@
 # 命令行德州扑克 · 你 vs 5 个 AI
 
+[![Release](https://img.shields.io/github/v/release/tian-1997/poker-deepseek?color=blue)](https://github.com/tian-1997/poker-deepseek/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg)](https://www.python.org/)
+[![Tests](https://img.shields.io/badge/tests-115%20passed-brightgreen.svg)](test_poker.py)
+
 一个跑在终端里的单机无限注德州扑克（NLHE）。你坐一桌，对面 1~5 个 AI 机器人，每个座位有自己的打法和跨手记忆；**不联网也能打，不花一分钱**，想更强可以接在线模型。
 
 游戏本体只用 Python 标准库，零第三方依赖。
@@ -21,6 +26,8 @@
 ## 快速开始
 
 需要 Python 3.10+（用了 `X | None` 类型标注）。游戏本体零第三方依赖。
+
+**Windows 用户不想装 Python**：去 [Releases](https://github.com/tian-1997/poker-deepseek/releases/latest) 下载 `PokerGame.exe` 双击即玩，或下 `poker-share-v1.0.0.zip` 拿图形启动器完整包。
 
 ```bash
 git clone https://github.com/tian-1997/poker-deepseek.git
