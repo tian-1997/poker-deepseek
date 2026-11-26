@@ -1,0 +1,32 @@
+# ---- 运行时产物 ----
+poker-memory.json
+poker-memory.json.*
+reviews*.json
+reviews-*.json
+exe-selftest.txt
+_run*.txt
+poker-config.bat
+*.key
+.env
+
+# ---- 打包产物 ----
+*.exe
+*.zip
+*.7z
+_build*/
+build/
+dist/
+share/
+*.spec
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ---- 本地快捷方式 / 截图 ----
+启动器.lnk
+启动器预览.png
